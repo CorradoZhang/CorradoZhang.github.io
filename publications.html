@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Publications - Yu Zhang</title>
+  <link rel="stylesheet" href="styles.css" />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" />
+</head>
+<body>
+
+  <!-- Navigation -->
+  <nav class="navbar">
+    <div class="nav-container">
+      <div class="nav-logo">
+        <h2>Yu Zhang</h2>
+      </div>
+      <ul class="nav-menu">
+        <li><a href="index.html" class="nav-link">Home</a></li>
+        <li><a href="research.html" class="nav-link">Research</a></li>
+        <li><a href="projects.html" class="nav-link">Projects</a></li>
+        <li><a href="publications.html" class="nav-link active">Publications</a></li>
+        <li><a href="contact.html" class="nav-link">Contact</a></li>
+      </ul>
+    </div>
+  </nav>
+
+  <!-- Publications Hero Section -->
+  <section class="page-hero">
+    <div class="container">
+      <h1 class="page-title">Publications</h1>
+      <p class="page-subtitle">Academic papers and research contributions</p>
+    </div>
+  </section>
+
+  <!-- Publications Filter Section -->
+  <section class="publications-filter">
+    <div class="container">
+      <div class="filter-buttons">
+        <button class="filter-btn active" data-filter="all">All Publications</button>
+        <button class="filter-btn" data-filter="journal">Journal Papers</button>
+        <button class="filter-btn" data-filter="conference">Conference Papers</button>
+        <button class="filter-btn" data-filter="preprint">Preprints</button>
+      </div>
+    </div>
+  </section>
+
+  <!-- Publications List Section 
+  <section class="publications-list-section">
+    <div class="container">
+      <div class="publications-list">
+        <div class="publication-item" data-category="journal">
+          <div class="publication-year">2024</div>
+          <div class="publication-content">
+            <h3>"Multi-Agent PPO for Resource Allocation in Distributed Systems"</h3>
+            <p class="publication-authors">Yu Zhang, [Co-author], [Co-author]</p>
+            <p class="publication-journal">Neurocomputing</p>
+            <p class="publication-abstract">
+              This paper presents a novel multi-agent reinforcement learning framework using Proximal Policy Optimization (PPO) 
+              for dynamic resource allocation in distributed computing systems. Our approach demonstrates improved efficiency 
+              and fairness compared to traditional allocation methods.
+            </p>
+            <div class="publication-links">
+              <a href="#" class="publication-link"><i class="fas fa-external-link-alt"></i> DOI</a>
+              <a href="#" class="publication-link"><i class="fas fa-file-pdf"></i> PDF</a>
+              <a href="#" class="publication-link"><i class="fab fa-github"></i> Code</a>
+            </div>
+          </div>
+        </div>
+
+        <div class="publication-item" data-category="conference">
+          <div class="publication-year">2023</div>
+          <div class="publication-content">
+            <h3>"Evolutionary Algorithms for Neural Architecture Search"</h3>
+            <p class="publication-authors">Yu Zhang, [Co-author]</p>
+            <p class="publication-journal">IEEE Congress on Evolutionary Computation (CEC)</p>
+            <p class="publication-abstract">
+              We propose a novel evolutionary algorithm approach for automatic neural architecture search, 
+              reducing computational cost while maintaining model performance across various datasets.
+            </p>
+            <div class="publication-links">
+              <a href="#" class="publication-link"><i class="fas fa-external-link-alt"></i> DOI</a>
+              <a href="#" class="publication-link"><i class="fas fa-file-pdf"></i> PDF</a>
+              <a href="#" class="publication-link"><i class="fab fa-github"></i> Code</a>
+            </div>
+          </div>
+        </div>
+
+        <div class="publication-item" data-category="journal">
+          <div class="publication-year">2023</div>
+          <div class="publication-content">
+            <h3>"Deep Reinforcement Learning for Intelligent Trading Systems"</h3>
+            <p class="publication-authors">Yu Zhang, [Co-author], [Co-author], [Co-author]</p>
+            <p class="publication-journal">Expert Systems with Applications</p>
+            <p class="publication-abstract">
+              This work explores the application of deep reinforcement learning techniques in financial trading, 
+              developing a framework that adapts to market conditions and optimizes trading strategies.
+            </p>
+            <div class="publication-links">
+              <a href="#" class="publication-link"><i class="fas fa-external-link-alt"></i> DOI</a>
+              <a href="#" class="publication-link"><i class="fas fa-file-pdf"></i> PDF</a>
+            </div>
+          </div>
+        </div>
+
+        <div class="publication-item" data-category="preprint">
+          <div class="publication-year">2024</div>
+          <div class="publication-content">
+            <h3>"Hybrid Optimization Methods for Complex Engineering Problems"</h3>
+            <p class="publication-authors">Yu Zhang, [Co-author]</p>
+            <p class="publication-journal">arXiv preprint</p>
+            <p class="publication-abstract">
+              We present a hybrid optimization framework combining evolutionary algorithms with machine learning 
+              techniques to solve complex engineering optimization problems with multiple objectives.
+            </p>
+            <div class="publication-links">
+              <a href="#" class="publication-link"><i class="fas fa-external-link-alt"></i> arXiv</a>
+              <a href="#" class="publication-link"><i class="fas fa-file-pdf"></i> PDF</a>
+            </div>
+          </div>
+        </div>
+
+        <div class="publication-item" data-category="conference">
+          <div class="publication-year">2022</div>
+          <div class="publication-content">
+            <h3>"Adaptive Particle Swarm Optimization with Machine Learning Guidance"</h3>
+            <p class="publication-authors">Yu Zhang, [Co-author]</p>
+            <p class="publication-journal">International Conference on Swarm Intelligence (ICSI)</p>
+            <p class="publication-abstract">
+              This paper introduces an adaptive particle swarm optimization algorithm that uses machine learning 
+              to guide the search process and improve convergence speed in complex optimization landscapes.
+            </p>
+            <div class="publication-links">
+              <a href="#" class="publication-link"><i class="fas fa-external-link-alt"></i> DOI</a>
+              <a href="#" class="publication-link"><i class="fas fa-file-pdf"></i> PDF</a>
+              <a href="#" class="publication-link"><i class="fab fa-github"></i> Code</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  -->
+  
+  <!-- Publication Statistics Section -->
+  <!-- section class="publication-stats">
+    <div class="container">
+      <h2 class="section-title">Publication Statistics</h2>
+      <div class="stats-grid">
+        <div class="stat-card">
+          <div class="stat-number">5</div>
+          <div class="stat-label">Total Publications</div>
+        </div>
+        <div class="stat-card">
+          <div class="stat-number">3</div>
+          <div class="stat-label">Journal Papers</div>
+        </div>
+        <div class="stat-card">
+          <div class="stat-number">2</div>
+          <div class="stat-label">Conference Papers</div>
+        </div>
+        <div class="stat-card">
+          <div class="stat-number">1</div>
+          <div class="stat-label">Preprints</div>
+        </div>
+      </div>
+    </div>
+  </section-->
+
+  <!-- Footer -->
+  <footer class="footer">
+    <div class="container">
+      <p>&copy; 2024 Yu Zhang. All rights reserved.</p>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html> 

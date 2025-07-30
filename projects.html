@@ -1,0 +1,240 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Projects - Yu Zhang</title>
+  <link rel="stylesheet" href="styles.css" />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" />
+</head>
+<body>
+
+  <!-- Navigation -->
+  <nav class="navbar">
+    <div class="nav-container">
+      <div class="nav-logo">
+        <h2>Yu Zhang</h2>
+      </div>
+      <ul class="nav-menu">
+        <li><a href="index.html" class="nav-link">Home</a></li>
+        <li><a href="research.html" class="nav-link">Research</a></li>
+        <li><a href="projects.html" class="nav-link active">Projects</a></li>
+        <li><a href="publications.html" class="nav-link">Publications</a></li>
+        <li><a href="contact.html" class="nav-link">Contact</a></li>
+      </ul>
+    </div>
+  </nav>
+
+  <!-- Projects Hero Section -->
+  <section class="page-hero">
+    <div class="container">
+      <h1 class="page-title">Projects</h1>
+      <p class="page-subtitle">Showcasing my work in AI, machine learning, and software development</p>
+    </div>
+  </section>
+
+  <!-- Featured Projects Section -->
+  <section class="featured-projects">
+    <div class="container">
+      <h2 class="section-title">Featured Projects</h2>
+      <div class="projects-grid">
+        <div class="project-card featured">
+          <div class="project-image">
+            <i class="fas fa-robot"></i>
+          </div>
+          <div class="project-content">
+            <div class="project-header">
+              <h3>Multi-Agent RL Framework</h3>
+              <span class="project-category">Research</span>
+            </div>
+            <p class="project-description">
+              A comprehensive framework for multi-agent reinforcement learning with applications in resource allocation.
+            </p>
+            <div class="project-tech">
+              <span class="tech-tag">Python</span>
+              <span class="tech-tag">PyTorch</span>
+              <span class="tech-tag">Gym</span>
+            </div>
+            <div class="project-links">
+              <a href="#" class="project-link"><i class="fab fa-github"></i> Code</a>
+              <a href="#" class="project-link"><i class="fas fa-file-pdf"></i> Paper</a>
+            </div>
+          </div>
+        </div>
+
+        <div class="project-card featured">
+          <div class="project-image">
+            <i class="fas fa-chart-line"></i>
+          </div>
+          <div class="project-content">
+            <div class="project-header">
+              <h3>Intelligent Trading System</h3>
+              <span class="project-category">Application</span>
+            </div>
+            <p class="project-description">
+              An AI-powered trading system that uses reinforcement learning to optimize trading strategies.
+            </p>
+            <div class="project-tech">
+              <span class="tech-tag">Python</span>
+              <span class="tech-tag">TensorFlow</span>
+              <span class="tech-tag">Pandas</span>
+            </div>
+            <div class="project-links">
+              <a href="#" class="project-link"><i class="fab fa-github"></i> Code</a>
+              <a href="#" class="project-link"><i class="fas fa-external-link-alt"></i> Demo</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- All Projects Section -->
+  <section class="all-projects">
+    <div class="container">
+      <h2 class="section-title">All Projects</h2>
+      <div class="projects-filter">
+        <button class="filter-btn active" data-filter="all">All</button>
+        <button class="filter-btn" data-filter="research">Research</button>
+        <button class="filter-btn" data-filter="application">Application</button>
+        <button class="filter-btn" data-filter="web">Web Development</button>
+      </div>
+      
+      <div class="projects-grid">
+        <div class="project-card" data-category="research">
+          <div class="project-image">
+            <i class="fas fa-dna"></i>
+          </div>
+          <div class="project-content">
+            <div class="project-header">
+              <h3>Evolutionary Algorithm Library</h3>
+              <span class="project-category">Research</span>
+            </div>
+            <p class="project-description">
+              A comprehensive library implementing various evolutionary algorithms including GA, PSO, and SA.
+            </p>
+            <div class="project-tech">
+              <span class="tech-tag">Python</span>
+              <span class="tech-tag">NumPy</span>
+              <span class="tech-tag">Matplotlib</span>
+            </div>
+            <div class="project-links">
+              <a href="#" class="project-link"><i class="fab fa-github"></i> Code</a>
+            </div>
+          </div>
+        </div>
+
+        <div class="project-card" data-category="application">
+          <div class="project-image">
+            <i class="fas fa-brain"></i>
+          </div>
+          <div class="project-content">
+            <div class="project-header">
+              <h3>Neural Network Visualizer</h3>
+              <span class="project-category">Application</span>
+            </div>
+            <p class="project-description">
+              An interactive tool for visualizing neural network architectures and training processes.
+            </p>
+            <div class="project-tech">
+              <span class="tech-tag">Python</span>
+              <span class="tech-tag">Streamlit</span>
+              <span class="tech-tag">Plotly</span>
+            </div>
+            <div class="project-links">
+              <a href="#" class="project-link"><i class="fab fa-github"></i> Code</a>
+              <a href="#" class="project-link"><i class="fas fa-external-link-alt"></i> Demo</a>
+            </div>
+          </div>
+        </div>
+
+        <div class="project-card" data-category="web">
+          <div class="project-image">
+            <i class="fas fa-globe"></i>
+          </div>
+          <div class="project-content">
+            <div class="project-header">
+              <h3>Academic Portfolio Website</h3>
+              <span class="project-category">Web Development</span>
+            </div>
+            <p class="project-description">
+              A responsive academic portfolio website showcasing research and projects.
+            </p>
+            <div class="project-tech">
+              <span class="tech-tag">HTML</span>
+              <span class="tech-tag">CSS</span>
+              <span class="tech-tag">JavaScript</span>
+            </div>
+            <div class="project-links">
+              <a href="#" class="project-link"><i class="fab fa-github"></i> Code</a>
+              <a href="#" class="project-link"><i class="fas fa-external-link-alt"></i> Live</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Skills Section -->
+  <section class="skills-section">
+    <div class="container">
+      <h2 class="section-title">Technologies & Skills</h2>
+      <div class="skills-grid">
+        <div class="skill-category">
+          <h3>Programming Languages</h3>
+          <div class="skill-tags">
+            <span class="skill-tag">Python</span>
+            <span class="skill-tag">JavaScript</span>
+            <span class="skill-tag">Java</span>
+            <span class="skill-tag">C++</span>
+            <span class="skill-tag">R</span>
+          </div>
+        </div>
+        
+        <div class="skill-category">
+          <h3>Machine Learning</h3>
+          <div class="skill-tags">
+            <span class="skill-tag">PyTorch</span>
+            <span class="skill-tag">TensorFlow</span>
+            <span class="skill-tag">Scikit-learn</span>
+            <span class="skill-tag">OpenAI Gym</span>
+            <span class="skill-tag">Pandas</span>
+          </div>
+        </div>
+        
+        <div class="skill-category">
+          <h3>Web Development</h3>
+          <div class="skill-tags">
+            <span class="skill-tag">HTML/CSS</span>
+            <span class="skill-tag">React</span>
+            <span class="skill-tag">Node.js</span>
+            <span class="skill-tag">FastAPI</span>
+            <span class="skill-tag">Docker</span>
+          </div>
+        </div>
+        
+        <div class="skill-category">
+          <h3>Tools & Platforms</h3>
+          <div class="skill-tags">
+            <span class="skill-tag">Git</span>
+            <span class="skill-tag">AWS</span>
+            <span class="skill-tag">Linux</span>
+            <span class="skill-tag">Jupyter</span>
+            <span class="skill-tag">LaTeX</span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="footer">
+    <div class="container">
+      <p>&copy; 2024 Yu Zhang. All rights reserved.</p>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html> 
